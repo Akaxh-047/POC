@@ -1,0 +1,22 @@
+﻿/* Custom styles for the header */
+.custom-header {
+    background-color: #f8f9fa; /* Light gray background */
+    border-bottom: 2px solid #007bff; /* Blue border at the bottom */
+    padding: 10px 0; /* Add some padding */
+}
+
+.custom-header .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Blue color */
+}
+
+.custom-header .navbar-nav .nav-link {
+    font-size: 1rem; /* Standard font size for links */
+    color: #343a40; /* Dark gray color */
+}
+
+.custom-header .navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+}

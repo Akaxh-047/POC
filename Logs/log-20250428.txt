@@ -1,0 +1,355 @@
+2025-04-28 15:55:26.823 +05:30 [INF] User profile is available. Using 'C:\Users\abu.akash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-28 15:55:26.952 +05:30 [INF] Now listening on: http://localhost:5195
+2025-04-28 15:55:26.955 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-28 15:55:26.955 +05:30 [INF] Hosting environment: Development
+2025-04-28 15:55:26.955 +05:30 [INF] Content root path: C:\Users\abu.akash\Desktop\WebApplication1\webapplication1
+2025-04-28 15:56:53.485 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 15:56:53.499 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:56:53.500 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:56:53.504 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 20.9346ms
+2025-04-28 15:57:00.124 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 15:57:00.125 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:57:00.126 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:57:00.127 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 3.7377ms
+2025-04-28 15:57:39.466 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 15:57:39.467 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 15:57:39.491 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 15:57:39.501 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 15:57:39.557 +05:30 [INF] Executed ViewResult - view Index executed in 56.388ms.
+2025-04-28 15:57:39.558 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 66.6898ms
+2025-04-28 15:57:39.558 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 15:57:39.559 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 92.8082ms
+2025-04-28 15:57:39.587 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-28 15:57:39.588 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-04-28 15:57:39.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/lib/jquery/dist/jquery.min.js - null null
+2025-04-28 15:57:39.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 15:57:39.592 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-28 15:57:39.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-28 15:57:39.600 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\css\site.css'
+2025-04-28 15:57:39.600 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 667 text/css 11.8786ms
+2025-04-28 15:57:39.601 +05:30 [INF] Sending file. Request path: '/WebApplication1.styles.css'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\obj\Debug\net9.0\scopedcss\bundle\WebApplication1.styles.css'
+2025-04-28 15:57:39.601 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\js\site.js'
+2025-04-28 15:57:39.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 200 1133 text/css 10.766ms
+2025-04-28 15:57:39.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 8.9268ms
+2025-04-28 15:57:39.603 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-04-28 15:57:39.603 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-04-28 15:57:39.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/lib/jquery/dist/jquery.min.js - 200 87533 text/javascript 11.8328ms
+2025-04-28 15:57:39.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80721 text/javascript 11.1342ms
+2025-04-28 15:57:39.607 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-28 15:57:39.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/lib/bootstrap/dist/css/bootstrap.min.css - 200 232803 text/css 20.1784ms
+2025-04-28 15:57:39.695 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/favicon.ico - null null
+2025-04-28 15:57:39.696 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\favicon.ico'
+2025-04-28 15:57:39.696 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/favicon.ico - 200 5430 image/x-icon 1.3149ms
+2025-04-28 15:57:46.796 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 15:57:46.796 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:57:46.797 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:57:46.797 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 1.0803ms
+2025-04-28 15:58:22.423 +05:30 [INF] Application is shutting down...
+2025-04-28 15:58:29.049 +05:30 [INF] User profile is available. Using 'C:\Users\abu.akash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-28 15:58:29.150 +05:30 [INF] Now listening on: http://localhost:5195
+2025-04-28 15:58:29.151 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-28 15:58:29.151 +05:30 [INF] Hosting environment: Development
+2025-04-28 15:58:29.151 +05:30 [INF] Content root path: C:\Users\abu.akash\Desktop\WebApplication1\webapplication1
+2025-04-28 15:59:31.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 15:59:31.899 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:59:31.899 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 15:59:31.903 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 25.1111ms
+2025-04-28 16:00:19.618 +05:30 [INF] Application is shutting down...
+2025-04-28 16:02:09.205 +05:30 [INF] User profile is available. Using 'C:\Users\abu.akash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-28 16:02:09.323 +05:30 [INF] Now listening on: http://localhost:5195
+2025-04-28 16:02:09.325 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-28 16:02:09.326 +05:30 [INF] Hosting environment: Development
+2025-04-28 16:02:09.326 +05:30 [INF] Content root path: C:\Users\abu.akash\Desktop\WebApplication1\webapplication1
+2025-04-28 16:03:14.858 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 16:03:14.878 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:03:14.895 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:03:14.904 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 16:03:14.981 +05:30 [INF] Executed ViewResult - view Index executed in 78.0668ms.
+2025-04-28 16:03:14.993 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 97.641ms
+2025-04-28 16:03:14.993 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:03:14.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 138.4958ms
+2025-04-28 16:03:15.033 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 16:03:15.048 +05:30 [INF] Sending file. Request path: '/WebApplication1.styles.css'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\obj\Debug\net9.0\scopedcss\bundle\WebApplication1.styles.css'
+2025-04-28 16:03:15.048 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 200 1133 text/css 15.7274ms
+2025-04-28 16:03:18.680 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 16:03:18.683 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:03:18.683 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:03:18.684 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 3.9045ms
+2025-04-28 16:03:39.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 16:03:39.873 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:03:39.873 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:03:39.873 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 1.4417ms
+2025-04-28 16:04:17.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 16:04:17.698 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:17.698 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:04:17.700 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 16:04:17.710 +05:30 [INF] Executed ViewResult - view Index executed in 10.9289ms.
+2025-04-28 16:04:17.710 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 12.1349ms
+2025-04-28 16:04:17.711 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:17.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 13.8183ms
+2025-04-28 16:04:17.758 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 16:04:17.760 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-04-28 16:04:17.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 3.2154ms
+2025-04-28 16:04:31.659 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 16:04:31.660 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:31.660 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:04:31.660 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 16:04:31.661 +05:30 [INF] Executed ViewResult - view Index executed in 1.0035ms.
+2025-04-28 16:04:31.661 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 1.2078ms
+2025-04-28 16:04:31.662 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:31.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 2.6863ms
+2025-04-28 16:04:31.710 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 16:04:31.711 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-04-28 16:04:31.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 0.9451ms
+2025-04-28 16:04:33.248 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 16:04:33.248 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:33.248 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:04:33.249 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 16:04:33.251 +05:30 [INF] Executed ViewResult - view Index executed in 1.9371ms.
+2025-04-28 16:04:33.251 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 2.138ms
+2025-04-28 16:04:33.251 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:33.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 2.8232ms
+2025-04-28 16:04:36.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Home/Privacy - null null
+2025-04-28 16:04:36.724 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Privacy (WebApplication1)'
+2025-04-28 16:04:36.726 +05:30 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:04:36.728 +05:30 [INF] Executing ViewResult, running view Privacy.
+2025-04-28 16:04:36.751 +05:30 [INF] Executed ViewResult - view Privacy executed in 24.8572ms.
+2025-04-28 16:04:36.752 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Privacy (WebApplication1) in 25.3047ms
+2025-04-28 16:04:36.752 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Privacy (WebApplication1)'
+2025-04-28 16:04:36.752 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Home/Privacy - 200 null text/html; charset=utf-8 28.249ms
+2025-04-28 16:04:39.329 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 16:04:39.329 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:39.329 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 16:04:39.330 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 16:04:39.331 +05:30 [INF] Executed ViewResult - view Index executed in 1.1216ms.
+2025-04-28 16:04:39.331 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 1.506ms
+2025-04-28 16:04:39.331 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 16:04:39.331 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 2.299ms
+2025-04-28 16:07:07.934 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 16:07:07.934 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:07:07.934 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-28 16:07:07.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 405 0 null 0.3474ms
+2025-04-28 17:11:42.292 +05:30 [INF] Application is shutting down...
+2025-04-28 17:11:58.929 +05:30 [INF] User profile is available. Using 'C:\Users\abu.akash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-28 17:11:59.122 +05:30 [INF] Now listening on: http://localhost:5195
+2025-04-28 17:11:59.125 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-28 17:11:59.125 +05:30 [INF] Hosting environment: Development
+2025-04-28 17:11:59.126 +05:30 [INF] Content root path: C:\Users\abu.akash\Desktop\WebApplication1\webapplication1
+2025-04-28 17:12:27.479 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:12:27.505 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:27.526 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:12:27.540 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:12:27.705 +05:30 [INF] Executed ViewResult - view Login executed in 165.4339ms.
+2025-04-28 17:12:27.724 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 197.6629ms
+2025-04-28 17:12:27.725 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:27.729 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 251.422ms
+2025-04-28 17:12:27.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 17:12:27.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-04-28 17:12:27.774 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2025-04-28 17:12:27.781 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-04-28 17:12:27.781 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 11.3218ms
+2025-04-28 17:12:27.797 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js'
+2025-04-28 17:12:27.797 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2025-04-28 17:12:27.799 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 24.5932ms
+2025-04-28 17:12:27.799 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/lib/jquery-validation/dist/jquery.validate.min.js - 200 25308 text/javascript 27.3167ms
+2025-04-28 17:12:35.731 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:12:35.734 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:35.735 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:12:35.737 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:12:35.749 +05:30 [INF] Executed ViewResult - view Login executed in 12.2868ms.
+2025-04-28 17:12:35.749 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 13.6084ms
+2025-04-28 17:12:35.749 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:35.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 18.3465ms
+2025-04-28 17:12:37.314 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 17:12:37.315 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 17:12:37.319 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 17:12:37.322 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 17:12:37.331 +05:30 [INF] Executed ViewResult - view Index executed in 10.7974ms.
+2025-04-28 17:12:37.331 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 11.8855ms
+2025-04-28 17:12:37.331 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 17:12:37.332 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 17.6119ms
+2025-04-28 17:12:39.686 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:12:39.687 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:39.688 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:12:39.688 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:12:39.694 +05:30 [INF] Executed ViewResult - view Login executed in 6.4681ms.
+2025-04-28 17:12:39.695 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 6.9867ms
+2025-04-28 17:12:39.695 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:12:39.696 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 9.4181ms
+2025-04-28 17:18:49.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:18:49.443 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:49.443 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:18:49.444 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:18:49.447 +05:30 [INF] Executed ViewResult - view Login executed in 3.0495ms.
+2025-04-28 17:18:49.447 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 3.3307ms
+2025-04-28 17:18:49.447 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:49.447 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 5.3135ms
+2025-04-28 17:18:49.487 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:18:49.489 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\abu.akash\Desktop\WebApplication1\webapplication1\wwwroot\css\site.css'
+2025-04-28 17:18:49.489 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 200 1391 text/css 2.5432ms
+2025-04-28 17:18:54.279 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:18:54.279 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:54.280 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:18:54.280 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:18:54.285 +05:30 [INF] Executed ViewResult - view Login executed in 4.5345ms.
+2025-04-28 17:18:54.285 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 5.0131ms
+2025-04-28 17:18:54.285 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:54.286 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 6.7615ms
+2025-04-28 17:18:54.338 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:18:54.339 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:18:54.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 1.3369ms
+2025-04-28 17:18:55.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-04-28 17:18:55.999 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 17:18:55.999 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-04-28 17:18:56.000 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-28 17:18:56.002 +05:30 [INF] Executed ViewResult - view Index executed in 2.8749ms.
+2025-04-28 17:18:56.003 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 3.2267ms
+2025-04-28 17:18:56.003 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-04-28 17:18:56.003 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 4.662ms
+2025-04-28 17:18:56.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:18:56.049 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:18:56.049 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 0.5589ms
+2025-04-28 17:18:57.244 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:18:57.244 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:57.244 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:18:57.245 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:18:57.248 +05:30 [INF] Executed ViewResult - view Login executed in 2.9152ms.
+2025-04-28 17:18:57.248 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 3.5122ms
+2025-04-28 17:18:57.248 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:18:57.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 4.4911ms
+2025-04-28 17:18:57.293 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:18:57.294 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:18:57.294 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 0.8114ms
+2025-04-28 17:19:38.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:19:38.368 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:38.368 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:19:38.369 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:19:38.370 +05:30 [INF] Executed ViewResult - view Login executed in 1.7109ms.
+2025-04-28 17:19:38.370 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 1.9396ms
+2025-04-28 17:19:38.370 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:38.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 3.337ms
+2025-04-28 17:19:38.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:19:38.440 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:19:38.440 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 0.8617ms
+2025-04-28 17:19:38.440 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-04-28 17:19:38.441 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-04-28 17:19:38.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 0.4273ms
+2025-04-28 17:19:42.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:19:42.050 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:42.051 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:19:42.051 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:19:42.053 +05:30 [INF] Executed ViewResult - view Login executed in 1.7845ms.
+2025-04-28 17:19:42.053 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.0094ms
+2025-04-28 17:19:42.053 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:42.053 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 2.858ms
+2025-04-28 17:19:43.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:19:43.132 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:43.132 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:19:43.133 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:19:43.135 +05:30 [INF] Executed ViewResult - view Login executed in 1.9913ms.
+2025-04-28 17:19:43.135 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.1672ms
+2025-04-28 17:19:43.135 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:43.135 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 3.4248ms
+2025-04-28 17:19:43.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:19:43.520 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:43.520 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:19:43.520 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:19:43.522 +05:30 [INF] Executed ViewResult - view Login executed in 2.3864ms.
+2025-04-28 17:19:43.523 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.7366ms
+2025-04-28 17:19:43.523 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:19:43.523 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 3.4408ms
+2025-04-28 17:19:43.564 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:19:43.590 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:19:43.590 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 26.3426ms
+2025-04-28 17:20:16.723 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:16.724 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:16.724 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:16.725 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:16.728 +05:30 [INF] Executed ViewResult - view Login executed in 3.7268ms.
+2025-04-28 17:20:16.728 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 4.0272ms
+2025-04-28 17:20:16.728 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:16.729 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 5.3397ms
+2025-04-28 17:20:16.773 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:20:16.774 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:20:16.774 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 0.5933ms
+2025-04-28 17:20:18.141 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:18.141 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.141 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:18.141 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:18.143 +05:30 [INF] Executed ViewResult - view Login executed in 1.9041ms.
+2025-04-28 17:20:18.143 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.1676ms
+2025-04-28 17:20:18.144 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.144 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 2.8402ms
+2025-04-28 17:20:18.717 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:18.718 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.718 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:18.718 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:18.720 +05:30 [INF] Executed ViewResult - view Login executed in 2.0194ms.
+2025-04-28 17:20:18.720 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.2749ms
+2025-04-28 17:20:18.720 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.721 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 3.0773ms
+2025-04-28 17:20:18.868 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:18.868 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.869 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:18.869 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:18.870 +05:30 [INF] Executed ViewResult - view Login executed in 0.9548ms.
+2025-04-28 17:20:18.870 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 1.1169ms
+2025-04-28 17:20:18.870 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:18.870 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 1.6713ms
+2025-04-28 17:20:19.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:19.027 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.028 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:19.028 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:19.029 +05:30 [INF] Executed ViewResult - view Login executed in 1.1689ms.
+2025-04-28 17:20:19.029 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 1.5228ms
+2025-04-28 17:20:19.029 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.029 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 2.3461ms
+2025-04-28 17:20:19.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:19.195 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.195 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:19.195 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:19.197 +05:30 [INF] Executed ViewResult - view Login executed in 1.3355ms.
+2025-04-28 17:20:19.197 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 1.5525ms
+2025-04-28 17:20:19.197 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 2.3805ms
+2025-04-28 17:20:19.427 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Account/Login - null null
+2025-04-28 17:20:19.427 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.427 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (WebApplication1).
+2025-04-28 17:20:19.428 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:19.429 +05:30 [INF] Executed ViewResult - view Login executed in 1.7668ms.
+2025-04-28 17:20:19.429 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 2.1461ms
+2025-04-28 17:20:19.429 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:19.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 2.768ms
+2025-04-28 17:20:25.502 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5195/Account/Login - application/x-www-form-urlencoded 215
+2025-04-28 17:20:25.503 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:25.517 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginViewModel) on controller AccountController (WebApplication1).
+2025-04-28 17:20:25.557 +05:30 [WRN] Login failed for user 'knkjj'.
+2025-04-28 17:20:25.558 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:20:25.559 +05:30 [INF] Executed ViewResult - view Login executed in 1.5904ms.
+2025-04-28 17:20:25.559 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 42.181ms
+2025-04-28 17:20:25.559 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:20:25.560 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 57.1218ms
+2025-04-28 17:20:25.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:20:25.593 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:20:25.593 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 0.7429ms
+2025-04-28 17:20:54.821 +05:30 [INF] Application is shutting down...
+2025-04-28 17:21:03.965 +05:30 [INF] User profile is available. Using 'C:\Users\abu.akash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-28 17:21:04.132 +05:30 [INF] Now listening on: http://localhost:5195
+2025-04-28 17:21:04.136 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-28 17:21:04.136 +05:30 [INF] Hosting environment: Development
+2025-04-28 17:21:04.136 +05:30 [INF] Content root path: C:\Users\abu.akash\Desktop\WebApplication1\webapplication1
+2025-04-28 17:21:07.322 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5195/Account/Login - application/x-www-form-urlencoded 215
+2025-04-28 17:21:07.367 +05:30 [INF] Executing endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:21:07.428 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginViewModel) on controller AccountController (WebApplication1).
+2025-04-28 17:21:07.474 +05:30 [WRN] Login failed for user 'knkjj'.
+2025-04-28 17:21:07.497 +05:30 [INF] Executing ViewResult, running view Login.
+2025-04-28 17:21:07.663 +05:30 [INF] Executed ViewResult - view Login executed in 170.255ms.
+2025-04-28 17:21:07.687 +05:30 [INF] Executed action AccountController.Login (WebApplication1) in 258.2934ms
+2025-04-28 17:21:07.688 +05:30 [INF] Executed endpoint 'AccountController.Login (WebApplication1)'
+2025-04-28 17:21:07.691 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5195/Account/Login - 200 null text/html; charset=utf-8 372.5806ms
+2025-04-28 17:21:07.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/login.css - null null
+2025-04-28 17:21:07.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - null null
+2025-04-28 17:21:07.725 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/login.css - 404 0 null 4.4942ms
+2025-04-28 17:21:07.725 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5195/css/login.css, Response status code: 404
+2025-04-28 17:21:07.728 +05:30 [INF] The file /css/site.css was not modified
+2025-04-28 17:21:07.729 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5195/css/site.css?v=KZ5oF3Us1D6_VjNW0O5BdVXkAZJypI8StDKh4fFzeWQ - 304 null text/css 8.7932ms
